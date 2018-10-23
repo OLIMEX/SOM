@@ -1,0 +1,35 @@
+Notable hardware changes in A20-SOM's design betwen revisions
+
+Hardware revision C
+========
+
+1. Added resistor 10M parallel to the RTC crystal.
+2. Changed the RTC crystal to SMT package.
+3. Edited web-site white print to https://www.olimex.com
+4. D5 positioned further away from UART0 conectora.
+5. Major canges to the routing of DDR3 and NAND memory, similar to LIME2's. 
+6. Instead of test pads, added new connector with the following signals:
+	-> FMINL, FMINR, TVIN2, TVIN3, VMIC_OUT, AXP_BACKUP, AXP_RST, AXP_PWRON, UBOOT_SEL, VDD_RTC and GND;
+7. Added new option - PC17 could be used for NWP signal if necessary, but R22 should be placed in this case!
+
+Hardware revision D
+========
+
+1. Added matrix RM3 for the VGA signals.
+2. Added pads for optional capacitors C178, C179, C180, C181 (NA by default).
+3. VDD_RTC's label fixed from 3V3/30mA to 1V3/30mA.
+
+Hardware revision E
+========
+
+1. Added eMMC option.
+2. Added SPI flash option.
+3. C162(220uF/6.3V/tant) changed to 4x47uF/6.3V/0805.
+4. U2 and U3 changed from K4B4G1646D-BCK0 to MT41K256M16HA-125E(DDR3L-1600_11-11-11).
+
+Hardware revision E1
+=========
+
+1. C193 and L9 pads added for ETXCK and components not placed (NA).
+2. Added option to make the board with T2 chip instead of A20.
+3. Change RTC crystal with 1206 one.
