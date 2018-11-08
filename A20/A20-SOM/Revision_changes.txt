@@ -22,10 +22,11 @@ Hardware revision D
 Hardware revision E
 ========
 
-1. Added eMMC option.
-2. Added SPI flash option.
-3. C162(220uF/6.3V/tant) changed to 4x47uF/6.3V/0805.
-4. U2 and U3 changed from K4B4G1646D-BCK0 to MT41K256M16HA-125E(DDR3L-1600_11-11-11).
+1. Added EEPROM on TWI1 line. EEPROM address 0x50. Can cause problems with devices that use I2C1 and same address 0x50. The EEPROM comes loaded with production information, refer to this repo for more information: https://github.com/OLIMEX/OLINUXINO/tree/master/SOFTWARE/A20/A20-eeprom-contents
+2. Added eMMC option.
+3. Added SPI flash option.
+4. C162(220uF/6.3V/tant) changed to 4x47uF/6.3V/0805.
+5. U2 and U3 changed from K4B4G1646D-BCK0 to MT41K256M16HA-125E(DDR3L-1600_11-11-11).
 
 Hardware revision E1
 =========
