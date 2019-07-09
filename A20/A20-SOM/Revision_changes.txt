@@ -27,6 +27,7 @@ Hardware revision E
 3. Added SPI flash option.
 4. C162(220uF/6.3V/tant) changed to 4x47uF/6.3V/0805.
 5. U2 and U3 changed from K4B4G1646D-BCK0 to MT41K256M16HA-125E(DDR3L-1600_11-11-11).
+6. Added 5 x R22 resistors on ETX lines to reduce Ethernet noise.
 
 Hardware revision E1
 =========
@@ -34,3 +35,20 @@ Hardware revision E1
 1. C193 and L9 pads added for ETXCK and components not placed (NA).
 2. Added option to make the board with T2 chip instead of A20.
 3. Change RTC crystal with 1206 one.
+
+Hardware revision E2
+=========
+Improved a lot of capacitors near the AXP209, so that they match the recommendations better:
+
+1. C141 10uf/0603 --> 1uF/0603
+2. C145 10uF/0603 --> 4.7uF/0603
+3. C147 10uF/0603 --> 4.7uF/0603
+4. C148 10uF/0603 --> 4.7uF/0603
+5. C150 10uF/0603 --> 4.7uF/0603
+6. C123 10uF/0603 --> 4.7uF/0603
+7. C128 10uF/0603 --> 4.7uF/0603
+8. C134 1uF/0603 --> 4.7uF/0603
+9. C144 10uF/0603 --> 220nF/0603
+10. 2.2uH/1.5A/DCR<0.1R/CD32 now 2.2uH/NR3015T2R2M/1.5A/3015
+11. MCP120T475I-TT is now MCP121T475I-TT
+12. Q32.768kHz/12.5pF/20ppm/4P/SMD8038 is now Q32.768kHz/12.5pF/2P/SMD1206
