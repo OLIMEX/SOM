@@ -22,7 +22,8 @@ Hardware revision D
 Hardware revision E
 ========
 
-1. Added EEPROM on TWI1 line. EEPROM address 0x50. Can cause problems with devices that use I2C1 and same address 0x50. The EEPROM comes loaded with production information, refer to this repo for more information: https://github.com/OLIMEX/OLINUXINO/tree/master/SOFTWARE/A20/A20-eeprom-contents
+1. Added AT24C16C EEPROM on TWI1 line. EEPROM address 0x50. Can cause problems with devices that use I2C1 since it blocks
+addresses 0x50 to 0x57. The EEPROM comes loaded with production information, refer to this repo for more information: https://github.com/OLIMEX/OLINUXINO/tree/master/SOFTWARE/A20/A20-eeprom-contents
 2. Added eMMC option.
 3. Added SPI flash option.
 4. C162(220uF/6.3V/tant) changed to 4x47uF/6.3V/0805.
