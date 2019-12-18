@@ -1,0 +1,20 @@
+Notable hardware changes for A13-SOM boards. 
+
+In hardware revision Rev_E2
+========
+1. Changed RAM memory. New memory might have poor support in sunxi kernel u-boot; mainline u-boot should be used in case of issues.
+
+
+In hardware revision Rev_F
+========
+1. C81 changed from 100uF/6.3V/tant/CT7343 to 2 x capacitors in parallel each 47uF/6.3V/20%/X5R/C0805;
+2. L3 now 0R(board_mounted) resistor;
+3. Package improvements of several components for better soldering;
+4. Board size increased from 1300x2400mils to 1350x2400mils. Each side was increased with 25mils. This was done due to complaints about the reliability of the plastic headers. They should be more reliable now.
+
+In hardware revision Rev_G
+========
+1. The packages of most resistor matrices improved;
+2. C67 and C76 changed from 22pF to 33pF;
+3. L1 changed from CL470nH/0805/1.76R/250mA to FB0805/600R/2A;
+4. In A13-SOM256: R7 and R9 changed from 330 Ohm to 240 Ohm
