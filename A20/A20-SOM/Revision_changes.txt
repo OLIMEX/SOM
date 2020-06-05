@@ -54,3 +54,8 @@ Improved a lot of capacitors near the AXP209, so that they match the recommendat
 10. 2.2uH/1.5A/DCR<0.1R/CD32 now 2.2uH/NR3015T2R2M/1.5A/3015
 11. MCP120T475I-TT is now MCP121T475I-TT
 12. Q32.768kHz/12.5pF/20ppm/4P/SMD8038 is now Q32.768kHz/12.5pF/2P/SMD1206
+
+Hardware revision E3
+=========
+1. eMMC KLMAG2GEND-B031(FBGA153)(16G) changed with KLMAG1JETD-B041(FBGA153)(16G)
+2. RAM changed to Samsung K4B4G1646D-BYK0 from Micron MT41K256M16HA-125E
