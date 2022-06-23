@@ -1,0 +1,13 @@
+Hardware revision changes AM3352-SOM-EVB:
+
+In revision E
+====
+1. Q1's package changed from 32768Hz/6pF/4P to Q32.768kHz/12.5pF/2P/SMD1206;
+2. C89 and C91 values changed from 10pF to 22pF;
+3. The drills under C100 were moved a little bit away from the pads. For this purpose L3 was moved 5mils to the right;
+4. NAND_RPR jumper replaced by the R66(NA(10k))resistor. In addition, R65(NA(10k))and R67-R69(NA(10k)) added to support different boot order, as written in the schematic, if required.
+5. L4,L5,L7 and L8 changed from 2.2uH/1.5A/DCR<0.1R/CD32 to 2.2uH/1.5A/DCR=72mR/20%/3.00x3.00x1.50mm/CD32(NR3015T2R2M);
+6. L6 changed from CL470nH/0805/1.76R/250mA to FB0805/600R/2A;
+7. D1's value changed from 1N4148 to 1N4148W(SOD-123);
+8. The board enlarged with 10 mils around to avoid having drills and wires close to the board's edge;
+9. When there is no NAND, we don't populate c106 and r28.

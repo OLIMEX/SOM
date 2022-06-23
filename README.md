@@ -20,3 +20,7 @@ At the moment Olimex deals with the following categories of SOM boards:
 
 ==Rockchip RK3188==
 
+==Rockchip RK3328==
+
+==STM STM32MP153==
+
