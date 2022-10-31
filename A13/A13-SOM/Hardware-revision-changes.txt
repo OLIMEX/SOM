@@ -18,3 +18,11 @@ In hardware revision Rev_G
 2. C67 and C76 changed from 22pF to 33pF;
 3. L1 changed from CL470nH/0805/1.76R/250mA to FB0805/600R/2A;
 4. In A13-SOM256: R7 and R9 changed from 330 Ohm to 240 Ohm
+
+In hardware revision Rev_G1
+=========
+1. RAM memory changed to K4B4G1646D-BYK0.
+2. SY8009 changed with SY8089. 
+3. 2.2uH (L2 and L4) now 2.2uH/NR3015T2R2M/1.5A/3015.
+4. Changed R13 from 2k/1%/0603 to 2.2k/1%/0603, this is done to increase
+the voltage on the processor to around 1.45V.
