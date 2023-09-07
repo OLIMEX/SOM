@@ -59,3 +59,15 @@ Hardware revision E3
 =========
 1. eMMC KLMAG2GEND-B031(FBGA153)(16G) changed with KLMAG1JETD-B041(FBGA153)(16G)
 2. RAM changed to Samsung K4B4G1646D-BYK0 from Micron MT41K256M16HA-125E
+
+Hardware revision E4
+=======
+1. Changed RAM used from Micron MT41K256M16HA-125E to Samsung K4B4G1646D-BYK0
+
+Hardware revision F
+=======
+
+1. R86 and R72 connected to EFUSE_VDDQ.
+2. Replaced U6 (MCP121T475I-TT) with U19(VDA4510CTA). U19(VDA4510CTA) was placed in parallel to U6(MCP121T475I-TT) and U6 was made NA. 
+3. Added "CE" sign and "RoHS Compliant" text.
+4. At some point 8GB eMMC(MTFC8GAKAJCN-4M IT) become unavable for purchase and the only repalcement avialable was 16GB industrial eMMC(KLMAG2GEUF-B04P). We decided to replace all 8GB eMMC with 16GB eMMC.
